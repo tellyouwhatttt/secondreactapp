@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: hsl(0, 100%, 74%);
+  max-width: 100%;
+  height: 800px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg_image{ 
+  background-image: url("../src/images/bg-intro-desktop.png");
+  background-size: cover;
+}
+
+main{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.box-left {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.box-left h1 {
+  width: 10em;
+}
+
+.box-left p {
+  width: 30em;
+  font-size: large;
+  padding-top: 20px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.box-right {
+  width: 100%;
+  padding: 20px;
+}
+
+.box-right header {
+
+  width: 100%;
+  font-size: small;
+  background-color: #5d54a3;
+  color: white;
+  text-align: center;
+  width: 440px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.span-1 {
+  font-weight: 700;
+}
+
+form {
+  width: 100%;
+  max-width: 440px;
+  background-color: white;
+  padding: 20px 20px 35px 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input[type='text'],
+[type='email'],
+[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type='button'] {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.box-right p {
+  padding-top: 5px;
+  color: #cac9d2;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.span-2 {
+  font-weight: 700;
+  color: hsl(0, 100%, 74%);
+}
+
+@media all and (max-width: 650px) {
+  body {
+
+    max-width: 100%;
+    max-height: 1000px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bg_image{ 
+    background-image: url("../src/images/bg-intro-mobile.png");
+    background-size: cover;
+  }
+
+ main {
+    text-align: center;
+    background-size: cover;
+    max-width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    margin-top: 50px;
+
+  }
+
+  .box-left {
+    padding: 100px 0 0 20px;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+  }
+
+  .box-left h1 {
+    width: 300px;
+    font-size: 24px;
+
+  }
+
+  .box-left p {
+    width: 300px;
+    font-size: 16px;
+    padding: 20px 20px 40px 20px;
+    line-height: 1.5em;
+    font-weight: 400;
+  }
+
+  .box-right header {
+    font-size: 16px;
+    background-color: #5d54a3;
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  form {
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    background-color: white;
+    padding: 20px 20px 35px 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  input[type='text'],
+  [type='email'],
+  [type='password'] {
+    font-weight: 600;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 15px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  input[type='button'] {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .box-right p {
+    max-width: 330px;
+    padding: 5px 15px 5px 15px;
+    color: #cac9d2;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
