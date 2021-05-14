@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/secondreactapp/static/css/main.5c961728.chunk.css",
+    "main.js": "/secondreactapp/static/js/main.e03432e6.chunk.js",
+    "main.js.map": "/secondreactapp/static/js/main.e03432e6.chunk.js.map",
+    "runtime-main.js": "/secondreactapp/static/js/runtime-main.804cdd87.js",
+    "runtime-main.js.map": "/secondreactapp/static/js/runtime-main.804cdd87.js.map",
+    "static/js/2.aadcc0b1.chunk.js": "/secondreactapp/static/js/2.aadcc0b1.chunk.js",
+    "static/js/2.aadcc0b1.chunk.js.map": "/secondreactapp/static/js/2.aadcc0b1.chunk.js.map",
+    "static/js/3.5536f23a.chunk.js": "/secondreactapp/static/js/3.5536f23a.chunk.js",
+    "static/js/3.5536f23a.chunk.js.map": "/secondreactapp/static/js/3.5536f23a.chunk.js.map",
+    "index.html": "/secondreactapp/index.html",
+    "static/css/main.5c961728.chunk.css.map": "/secondreactapp/static/css/main.5c961728.chunk.css.map",
+    "static/js/2.aadcc0b1.chunk.js.LICENSE.txt": "/secondreactapp/static/js/2.aadcc0b1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/secondreactapp/static/media/bg-intro-mobile.02ce3982.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.804cdd87.js",
+    "static/js/2.aadcc0b1.chunk.js",
+    "static/css/main.5c961728.chunk.css",
+    "static/js/main.e03432e6.chunk.js"
+  ]
+}
